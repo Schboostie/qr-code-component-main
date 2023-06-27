@@ -1,0 +1,49 @@
+html {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  border-radius: 30px;
+  background-color: white;
+  border-color: blue;
+}
+.pic {
+  align-self: center;
+  justify-self: center;
+  padding: 15px;
+  border-radius: 30px;
+  width: 400px;
+}
+
+p {
+  display: flex;
+  flex-wrap: wrap;
+  font: 15px sans-serif;
+  font-weight: 700;
+  color: hsl(220, 15%, 55%);
+  justify-content: center;
+  all: center;
+  text-align: center;
+  padding: 50px;
+}
+.attribution {
+  color: azure;
+  font-size: 10px;
+}
+
+h1 {
+  display: flex;
+  flex-wrap: wrap;
+  font: 25px sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding: 50px;
+}
